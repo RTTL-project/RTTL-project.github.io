@@ -6,7 +6,7 @@ import avatar from '../assets/images/avatar.jpg'
 const Header = () => (
   <header id="header">
     <div className="inner">
-      <a href="#" className="image avatar">
+      <a href="https://rttl-project.github.io/" className="image avatar">
         <img src={avatar} alt="" />
       </a>
       <h1>
