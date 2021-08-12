@@ -1,0 +1,17 @@
+name: Build and Deploy for gatsby
+on:
+  push:
+    branches:
+      - develop  
+jobs:
+  build-and-deploy:
+    name: build and deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: npm install
+        run: npm install
+      - name: gatsby build and deploy
+        env:
+          API_KEY: ${{ secrets.API_KEY_SEUNGYEON }}
+        run: npm run deploy
