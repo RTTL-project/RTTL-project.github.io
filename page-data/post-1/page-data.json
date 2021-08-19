@@ -1,1 +1,1 @@
-{"componentChunkName":"component---src-templates-blog-post-js","path":"/post-1/","result":{"data":{"markdownRemark":{"html":"<p>내용입니다.\ntest github actions</p>","frontmatter":{"title":"My first blog post"}}},"pageContext":{"slug":"/post-1/"}},"staticQueryHashes":[]}
+{"componentChunkName":"component---src-templates-blog-post-js","path":"/post-1/","result":{"data":{"markdownRemark":{"html":"<p>내용입니다.~~~!!!!!</p>","frontmatter":{"title":"My first blog post"}}},"pageContext":{"slug":"/post-1/"}},"staticQueryHashes":[]}
