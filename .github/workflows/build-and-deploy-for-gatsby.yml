@@ -15,6 +15,7 @@ jobs:
         run: |
           git config --global user.email "mymr0796@naver.com"
           git config --global user.name "kimseungyeon2"
+          git remote set-url origin https://x-access-token:${{ secrets.API_KEY_SEUNGYEON }}@github.com/RTTL-project/RTTL-project.github.io.git
       - name: gatsby build and deploy
         env:
           API_KEY: ${{ secrets.API_KEY_SEUNGYEON }}
